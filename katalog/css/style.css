@@ -1,0 +1,140 @@
+/* Custom Stylesheet */
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.footer-copyright li {
+  display: inline-block;
+}
+
+.footer-copyright .row {
+  margin-bottom: 0;
+}
+
+#contact-wrapper {
+  justify-content: center;
+  width: 430px;
+  border: 1px solid #e2e2e2;
+  background: #f1f1f1;
+  padding: 20px;
+}
+
+#contact-wrapper div {
+  clear: both;
+  margin: 1em 0;
+}
+
+#contact-wrapper label {
+  display: block;
+  float: none;
+  font-size: 16px;
+  width: auto;
+}
+
+form#contactform input {
+  border-color: #B7B7B7 #E8E8E8 #E8E8E8 #B7B7B7;
+  border-style: solid;
+  border-width: 1px;
+  padding: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+form#contactform textarea {
+  font-family: Arial, Tahoma, Helvetica, sans-serif;
+  font-size: 100%;
+  padding: 0.6em 0.5em 0.7em;
+  border-color: #B7B7B7 #E8E8E8 #E8E8E8 #B7B7B7;
+  border-style: solid;
+  border-width: 1px;
+}
+
+nav ul a, nav .brand-logo {
+  color: #FBE38C;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #FBE38C;
+}
+
+.sidenav li a{
+  color: #FBE38C;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/* label color */
+
+.input-field label {
+  color: #FBE38C;
+}
+
+.input-field i {
+  color: #FBE38C;
+  ;
+}
+
+.collapsible {
+  margin: 0;
+}
+
+.collapsible-header i {
+  color: #FBE38C;
+}
+
+.card-image i {
+  color: #FBE38C;
+}
+
+#card-title {
+  color: #FBE38C;
+  text-shadow: 1px 1px 1px #000;
+  
+}
+
+
